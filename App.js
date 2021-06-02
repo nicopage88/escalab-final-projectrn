@@ -22,8 +22,8 @@ export default function App() {
   DarkThemePaper.colors.primary = '#1ae1f2';
   DarkThemePaper.colors.accent = '#1ae1f2';
 
-  DarkThemeNavigation.colors.background = '#192734';
-  DarkThemeNavigation.colors.card = '#15212b';
+  DarkThemeNavigation.colors.background = '#292929';
+  DarkThemeNavigation.colors.card = '#000000';
 
   const toggleTheme = () => {
     setTheme(theme === 'dark' ? 'light' : 'dark');

@@ -43,13 +43,13 @@ export default function Home(props) {
     <ScrollView showsVerticalScrollIndicator={false}>
       {newMovies && (
         <View style={styles.news}>
-          <Title style={styles.newsTitle}>Nuevas películas</Title>
+          <Title style={styles.newsTitle}>Pelis nuevas</Title>
           <CarouselVertical data={newMovies} navigation={navigation} />
         </View>
       )}
 
       <View style={styles.genres}>
-        <Title style={styles.genresTitle}>Películas por genero</Title>
+        <Title style={styles.genresTitle}>Categoría de películas</Title>
         <ScrollView
           horizontal
           showsHorizontalScrollIndicator={false}
@@ -59,7 +59,7 @@ export default function Home(props) {
               key={genre.id}
               style={[
                 styles.genre,
-                { color: genre.id !== genreSelected ? '#8697a5' : '#fff' },
+                { color: genre.id !== genreSelected ? '#FFED00' : '#DC8900' },
               ]}
               onPress={() => onChangeGenre(genre.id)}>
               {genre.name}
