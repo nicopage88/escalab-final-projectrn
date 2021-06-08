@@ -22,7 +22,7 @@ export default function App() {
   DarkThemePaper.colors.primary = '#1ae1f2';
   DarkThemePaper.colors.accent = '#1ae1f2';
 
-  DarkThemeNavigation.colors.background = '#292929';
+  DarkThemeNavigation.colors.background = '#04005B';
   DarkThemeNavigation.colors.card = '#000000';
 
   const toggleTheme = () => {
